@@ -8,10 +8,10 @@
     display: flex;
 }
 
+.container {
 
-.heading {
     position: absolute;
-    top: 25%;
-    left: 22%;
-    
+    right: 30%;
+
 }
+  
