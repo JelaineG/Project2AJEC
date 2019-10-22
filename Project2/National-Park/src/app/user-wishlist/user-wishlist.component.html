@@ -1,16 +1,19 @@
-<header class="heading">Your Wishlist</header>
-    <div class="container" id="compplacement">
-        <section>
-           <!--Include *ngFor = "newItem" when you get to that point, should add a input of type date when a new Item is added to wish list.... -->
-            <form (ngSubmit)="onSubmit(f)" #f="ngForm">
-                <label for="startDate">Start Date:
-                    <input type="date" name="startDate" [ngModel]="startDateSubmission()">
-                </label>
-                -
-                <label for="endDate">End Date:
-                   <input type="date" name="endDate" [ngModel]="endDateSubmission()"> 
-                </label>
-<!--                <input type="submit" [disabled]="!dates.valid">-->
-            </form>
-        </section>
-    </div> 
+<div class="container" id="compplacement">
+    <section>
+        <article class="listText">
+            I wanna see Arch National Park
+        </article>
+        <form class="level">
+            <label for="startDate">Start Date:
+                <input type="date" name="startDate" (input)="startDateSubmission($event)">
+            </label>
+                
+            <label for="endDate">End Date:
+                <input type="date" name="endDate" (input)="endDateSubmission($event)"> 
+            </label>
+<!--                <input type="submit" (click)="onSubmit()">-->
+        </form>
+    </section>
+</div> 
+    
+<!-- [startDates]="startDate"-->

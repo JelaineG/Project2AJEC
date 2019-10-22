@@ -1,17 +1,21 @@
 #compplacement {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 10%;
     margin-top: -50px;
     margin-left: -50px;
-    width: 40%;
+    width: 90%;
     display: flex;
 }
 
 
-.heading {
-    position: absolute;
-    top: 25%;
-    left: 22%;
-    
+.level {
+    margin-top: -15%;
+    margin-left: 65%;
+    text-align: center;
+}
+
+
+.listText {
+    margin-top: 20%;
 }

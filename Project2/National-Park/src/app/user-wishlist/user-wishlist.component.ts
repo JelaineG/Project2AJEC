@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-user-wishlist',
@@ -6,19 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-wishlist.component.css'],
 })
 export class UserWishlistComponent implements OnInit{
-
+  @Output() startDateSelected: EventEmitter<any> = new EventEmitter<any>();
+  
+  
+  startDate = '';
+  endDate = '';
 
   constructor() { }
 
   ngOnInit() {
   }
   
-  startDateSubmission(){
-    console.log(this.startDate);
+  startDateSubmission(event: Event){
+    console.log(event.target.value);
+    console.log(this.startDateSelected);
+    this.startDateSelected.emit({newStartDate: event});
   }
   
-  endDateSubmission(){
-    console.log(this.endDate);
+  endDateSubmission(event: Event){
+    console.log(event.target);
   }
 
 }
