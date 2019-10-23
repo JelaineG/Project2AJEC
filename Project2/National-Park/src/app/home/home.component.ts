@@ -7,7 +7,7 @@ import { Component, OnInit, Input, Output } from '@angular/core';
 })
 export class HomeComponent implements OnInit { 
   isLoggedIn=true;
-  @Input() dateData: Array<Date>;
+  dateData: Array<Date> = [];
 
   constructor() { }
 
@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   
   newStartDateSelected(event) {
         console.log(this.dateData);
-        this.dateData.push(event.newStartDate);
+        this.dateData = [...this.dateData, event.newStartDate]
     }
     
     dateRangeSelected() {
