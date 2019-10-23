@@ -1,28 +1,0 @@
-
-V
-squid:S106a"9Replace this use of System.out or System.err by a logger.(†Îß8Î˜ßİ-
-[
-squid:S106g"9Replace this use of System.out or System.err by a logger.(úú¬ãüÿÿÿÿ8Î˜ßİ-
-Tsquid:S14810"1Remove this unused "responseCode" local variable.(ÇÇ”ıÿÿÿÿ8Î˜ßİ-
-V
-squid:S106_"9Replace this use of System.out or System.err by a logger.(ó«Öì8Î˜ßİ-
-nsquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(èÌ„şÿÿÿÿ8ß’ÖøŞ-
-V
-squid:S106c"9Replace this use of System.out or System.err by a logger.(óåŸ8Î˜ßİ-
-[
-squid:S106'"9Replace this use of System.out or System.err by a logger.(½¦ÿÿÿÿÿ8Ş•¢ùİ-
-V
-squid:S106]"9Replace this use of System.out or System.err by a logger.(õĞ©8Î˜ßİ-
-nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(— ğ¨úÿÿÿÿ8ç­”úİ-
-isquid:UselessImportCheck"9Remove this unused import 'org.hibernate.SessionFactory'.(ñ¦«¬şÿÿÿÿ8ß’ÖøŞ-
-V
-squid:S106f"9Replace this use of System.out or System.err by a logger.(şšûë8Å”Ì¹İ-
-V
-squid:S106["9Replace this use of System.out or System.err by a logger.(›´Ÿ8Î˜ßİ-
-}squid:S1149*"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êú•“8Î˜ßİ-
-\squid:S3752$">Add a "method" parameter to this "@RequestMapping" annotation.(Äƒ ü8—³ßİ-
-Usquid:S1481D"2Remove this unused "directionsUrl" local variable.(ªíÎ•ıÿÿÿÿ8Î˜ßİ-
-[
-squid:S106e"9Replace this use of System.out or System.err by a logger.(ØöŞØûÿÿÿÿ8Å”Ì¹İ-
-csquid:S18540"@Remove this useless assignment to local variable "responseCode".(ÇÇ”ıÿÿÿÿ8Î˜ßİ-
-fsquid:UselessImportCheck";Remove this unused import 'java.net.MalformedURLException'.(ªËŞˆ8½©§·İ-

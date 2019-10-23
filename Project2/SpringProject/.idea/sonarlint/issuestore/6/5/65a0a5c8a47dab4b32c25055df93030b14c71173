@@ -1,26 +1,0 @@
-
-nsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(ƒ“©úÿÿÿÿ8ÙÜ¡×Þ-
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(€á õ
-\squid:S1854&"@Remove this useless assignment to local variable "responseCode".(ÇÇ”ýÿÿÿÿ
-T
-squid:S106L"9Replace this use of System.out or System.err by a logger.(œª¡žûÿÿÿÿ
-[
-squid:S106V"9Replace this use of System.out or System.err by a logger.(é§¤ÿþÿÿÿÿ8±¦Þ×Þ-
-Msquid:S1481&"1Remove this unused "responseCode" local variable.(ÇÇ”ýÿÿÿÿ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(— ð¨úÿÿÿÿ
-vsquid:S1149 "_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êú•“
-isquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(ÀÉ¢8…£œ×Þ-
-[
-squid:S106N"9Replace this use of System.out or System.err by a logger.(™ê©Ûøÿÿÿÿ8Œ•Û×Þ-
-nsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(‘ç¯äùÿÿÿÿ8¬÷ž×Þ-
-Nsquid:S14819"2Remove this unused "directionsUrl" local variable.(ªíÎ•ýÿÿÿÿ
-Usquid:S3752">Add a "method" parameter to this "@RequestMapping" annotation.(²éî•
-O
-squid:S106R"9Replace this use of System.out or System.err by a logger.(á‘‹€
-T
-squid:S106T"9Replace this use of System.out or System.err by a logger.(–è¢ðýÿÿÿÿ
-O
-squid:S106X"9Replace this use of System.out or System.err by a logger.(žÌ¨‘
-T
-squid:S106P"9Replace this use of System.out or System.err by a logger.(ÄßÈÙþÿÿÿÿ
