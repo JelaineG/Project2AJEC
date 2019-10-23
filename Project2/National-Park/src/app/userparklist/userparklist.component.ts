@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./userparklist.component.css']
 })
 export class UserparklistComponent implements OnInit {
-  isLoggedIn = true;
+  isLoggedIn=true;
 
   constructor() { }
 

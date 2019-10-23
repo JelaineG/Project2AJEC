@@ -17,7 +17,7 @@ import { Component,
 export class CalendarComponent implements OnInit {
   /*calendarPlugin = [dayGridPlugin];*/
   
-  @Input() dates: Array<Date> = []
+  @Input() dates: Array<Date> = [];
 
   constructor() { }
 
