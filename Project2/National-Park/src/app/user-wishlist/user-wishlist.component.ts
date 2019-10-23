@@ -6,11 +6,12 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./user-wishlist.component.css'],
 })
 export class UserWishlistComponent implements OnInit{
+  /*emits an event to the parent component: home*/
   @Output() startDateSelected: EventEmitter<any> = new EventEmitter<any>();
   
   
-  startDate = '';
-  endDate = '';
+  /*startDate = '';
+  endDate = '';*/
 
   constructor() { }
 
@@ -18,13 +19,18 @@ export class UserWishlistComponent implements OnInit{
   }
   
   startDateSubmission(event: Event){
-    console.log(event.target.value);
-    console.log(this.startDateSelected);
+    /*console.log(event.target.value);
+    *prints value of date that user selects *as a string
+    */
+    
+    /*console.log(this.startDateSelected);
+    *prints information about the EventEmitter, startDateSelected
+    */
     this.startDateSelected.emit({newStartDate: event});
   }
   
-  endDateSubmission(event: Event){
+  /*endDateSubmission(event: Event){
     console.log(event.target);
-  }
+  }*/
 
 }

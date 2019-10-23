@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit { 
   isLoggedIn=true;
-  dateData: Array<Date>
+  @Input() dateData: Array<Date>;
 
   constructor() { }
 
@@ -16,8 +16,12 @@ export class HomeComponent implements OnInit {
   }
   
   newStartDateSelected(event) {
-        console.log(dateData);
+        console.log(this.dateData);
         this.dateData.push(event.newStartDate);
+    }
+    
+    dateRangeSelected() {
+        
     }
   
 }
