@@ -1,0 +1,18 @@
+<header class="heading">Your Wishlist</header>
+<app-user-nav *ngIf="isLoggedIn"></app-user-nav>
+<div>
+    <app-user-wishlist (startDateSelected)="newStartDateSelected($event)">
+    </app-user-wishlist>
+    
+    <app-calendar [dates]="dateData">
+    </app-calendar>
+</div>
+   
+<!--
+*ngFor="let startDate of startDates"
+    [sDates]="startDate"
+    -->
+    
+    <!--(startDateSelected)="newStartDateSelected($event)"-->
+    
+<!--[dates]="dateData"-->

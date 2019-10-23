@@ -1,0 +1,23 @@
+#welcome {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+/*
+
+:host{
+    background-image: url('../../../../resources/p3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 15%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/

@@ -1,0 +1,9 @@
+ol {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}

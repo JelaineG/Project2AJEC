@@ -1,0 +1,40 @@
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<div class="container" id="visible">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3>Log In</h3>
+			</div>
+			<div class="card-body">
+			    <!--how to get access to form by JS object created by Angular automatically-->
+				<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+				<span class="help-block centered" *ngIf="!email.valid && email.touched">Please enter a valid email</span>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="email" ngModel name="email" required email #email="ngModel">
+					</div>
+				    <div>
+				        <span class="help-block centered" *ngIf="!password.valid && password.touched">Please enter a valid password</span>
+				    </div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="password" ngModel name="password" required #password="ngModel">
+					</div>
+					<div class="row align-items-center remember">
+						<input type="checkbox">Remember Me
+					</div>
+					<div class="form-group">
+						<input routerLink="/home" type="submit" value="Login" class="btn float-right login_btn" [disabled]="!email.valid || password === ''">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<router-outlet></router-outlet>
