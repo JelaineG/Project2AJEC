@@ -1,12 +1,0 @@
-
-squid:S1450"\Remove the "nationalParks" field and declare it as a local variable in the relevant methods.( Äçáüÿÿÿÿ8ºÔœ³Ş-
-V
-squid:S106&"9Replace this use of System.out or System.err by a logger.(µ’ó8Š„¬²Ş-
-nsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(¬·æºúÿÿÿÿ8Âš»²Ş-
-asquid:UselessImportCheck"6Remove this unused import 'org.hibernate.Transaction'.(ìÌè³8ú²¸ºŞ-
-Rsquid:S2209"5Change this instance-reference to a static reference.(¡Î³8‰±ÎøŞ-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§¦ßÅøÿÿÿÿ8ı¤ı»Ş-
-usquid:UselessImportCheck"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8±øŞ-
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷ÿ 8’ÉÌøŞ-
-Xsquid:S2209)"5Change this instance-reference to a static reference.(õ”ñşÿÿÿÿ8‰±ÎøŞ-
-Ssquid:S2696"6Make the enclosing method "static" or remove this set.(¡Î³8‰±ÎøŞ-
