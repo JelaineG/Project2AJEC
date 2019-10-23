@@ -1,3 +1,24 @@
+
+<div class="container" id="compplacement">
+    <section>
+        <article class="listText">
+            I wanna see Arch National Park
+        </article>
+        <form class="level">
+            <label for="startDate">Start Date:
+                <input type="date" name="startDate" (input)="startDateSubmission($event)">
+            </label>
+                
+            <label for="endDate">End Date:
+                <input type="date" name="endDate" (input)="endDateSubmission($event)"> 
+            </label>
+<!--                <input type="submit" (click)="onSubmit()">-->
+        </form>
+    </section>
+</div> 
+    
+<!-- [startDates]="startDate"-->
+
 <header class="heading">Your Wishlist</header>
     <div class="container" id="compplacement">
         <section>
@@ -15,3 +36,4 @@
             </form>
         </section>
     </div> 
+
