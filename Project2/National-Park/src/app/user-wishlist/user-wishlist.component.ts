@@ -6,7 +6,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./user-wishlist.component.css'],
 })
 export class UserWishlistComponent implements OnInit{
-  /*emits an event to the parent component: home*/
+  /*emits a custom event to the parent component: home, custom event is startDateSelected*/
   @Output() startDateSelected: EventEmitter<any> = new EventEmitter<any>();
   
   
@@ -26,11 +26,11 @@ export class UserWishlistComponent implements OnInit{
     /*console.log(this.startDateSelected);
     *prints information about the EventEmitter, startDateSelected
     */
-    this.startDateSelected.emit({newStartDate: event});
+    this.startDateSelected.emit({newStartDate: event.target.value});
   }
   
   /*endDateSubmission(event: Event){
-    console.log(event.target);
+    console.log(event.target.value);
   }*/
 
 }
