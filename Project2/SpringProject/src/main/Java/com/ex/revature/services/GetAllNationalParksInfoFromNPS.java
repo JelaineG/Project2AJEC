@@ -68,11 +68,6 @@ public class GetAllNationalParksInfoFromNPS {
             jsonObject2=jsonArray.getJSONObject(i);
             nationalParks=new NationalParks();
 
-
-
-
-            //nationalParksDAO = new NationalParksDAO();
-
             nationalParks.setFullName(jsonObject2.get("fullName").toString());
             nationalParks.setDesignation(jsonObject2.get("designation").toString());
             nationalParks.setDescription(jsonObject2.get("description").toString());
