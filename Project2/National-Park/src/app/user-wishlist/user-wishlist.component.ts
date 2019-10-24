@@ -26,7 +26,7 @@ export class UserWishlistComponent implements OnInit{
     /*console.log(this.startDateSelected);
     *prints information about the EventEmitter, startDateSelected
     */
-    this.startDateSelected.emit({newStartDate: event.target.value});
+    // this.startDateSelected.emit({newStartDate: event.target.value}); PUT BACK
   }
   
   /*endDateSubmission(event: Event){
