@@ -24,14 +24,14 @@ export class CalendarComponent implements OnInit {
 
   ngOnInit() { }
   
-  ngOnChanges(changes: SimpleChanges) {
-    console.log(changes);
-    if(changes.dates) {
-        console.log(changes.dates.currentValue[0])
-        const date = new Date(Date.parse(changes.dates.currentValue[0]));
-        console.log(date);
-    }
-  }
+  // ngOnChanges(changes: SimpleChanges) { PUT BACK
+  //   console.log(changes);
+  //   if(changes.dates) {
+  //       console.log(changes.dates.currentValue[0])
+  //       const date = new Date(Date.parse(changes.dates.currentValue[0]));
+  //       console.log(date);
+  //   }
+  // }
   
   /*addEvent(event) {
     this.dates.subscribe(event.startDate);*/

@@ -5,16 +5,26 @@
     <title>Testing</title>
 </head>
 <body>
-<h1>Hello World!!!</h1>
-<form action="initUser">
-    <input type="submit">Just Print Something
+    <h1>Hello World!!!</h1>
+    <form action="justPrintSomething">
+        <input type="submit">Just Print Something
+    </form>
+</br>
+    <form action="initMethod">
+        <input type="submit">Get All National Parks
+    </form>
+</br>
+    <form action="initMethodForVisitorCenters">
+        <input type="submit">Get All Visitor Centers
+    </form>
+</br>
+<form action="initMethodEvents">
+    <input type="submit">Get All Events
 </form>
 </br>
-<form action="initAlert">
-    <input type="submit">Get All National Parks
-</form>
-</br>
-
+<form action="getNationalPark">
+    <input type="text" id="parkCode" name="parkCode" required>
+    <input type="submit" name="parkCode">Get National Park Info
 </form>
 
 
