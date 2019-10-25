@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+// import { HttpClientModule } from '@angular/common/http'; STEP 1
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -35,6 +36,7 @@ import { CalendarComponent } from './calendar/calendar.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+//    HttpClientModule, STEP 2
   ],
   providers: [],
   bootstrap: [AppComponent]

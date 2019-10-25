@@ -30,7 +30,7 @@
 						<input type="checkbox">Remember Me
 					</div>
 					<div class="form-group">
-						<input routerLink="/home" type="submit" value="Login" class="btn float-right login_btn" [disabled]="!email.valid || password === ''">
+						<input routerLink="/home" (click)="getParkUser();" type="submit" value="Login" class="btn float-right login_btn" [disabled]="!email.valid || password === ''">
 					</div>
 				</form>
 			</div>
