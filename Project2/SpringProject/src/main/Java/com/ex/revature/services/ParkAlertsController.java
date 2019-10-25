@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 //@Component("getAllAlertsFromNPS")
 @Controller
-public class GetAllAlertsFromNPS {
+public class ParkAlertsController {
 
     //    public GetAllNationalParksInfoFromNPS() throws IOException, JSONException {
 //

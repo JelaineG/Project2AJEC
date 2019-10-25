@@ -6,20 +6,35 @@
 </head>
 <body>
 <h1>Hello World!!!</h1>
-<form action="initUser">
-    <input type="submit">Just Print Something
-</form>
-</br>
+
 <form action="initAlert">
-    <input type="submit">Get All National Parks
+    <input type="submit">Get alerts
 </form>
-</br>
-
+<form action="login">
+    <input type="submit">Login
 </form>
-
-
-
-
+<form action="saveParkUser">
+    <div class="input-container">
+        <label>First Name:</label><input type="text" name="firstName">
+    </div>
+    <div class="input-container">
+        <label>Last Name:</label><input  type="text" name="lastName">
+    </div>
+    <div class="input-container">
+        <label>Email:</label><input class="text" type="text" name="email">
+    </div>
+    <div class="input-container">
+        <label>parksVisited:</label><input  type="text" name="parksVisited">
+    </div>
+    <div class="input-container">
+        <label>password:</label><input class="text" type="text" name="password">
+    </div>
+    <input type="submit">save user
+</form>
+<form action="getParkUser">
+    <input type="text"  name="email" required>
+    <input type="submit" name="email">Get Park Users
+</form>
 
 </body>
 </html>

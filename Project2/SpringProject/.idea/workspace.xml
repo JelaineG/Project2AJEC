@@ -34,15 +34,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_INFO" value="false" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
@@ -58,15 +59,18 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.ex.revature.DAO" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\webapp" />
       <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\webapp\WEB-INF" />
       <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature\services" />
       <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature\entities" />
       <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,6 +376,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="SpringGeneralSettings">
     <option name="allowAutoConfigurationMode" value="true" />
   </component>
@@ -389,7 +396,11 @@
       <workItem from="1571415123997" duration="3032000" />
       <workItem from="1571423877442" duration="7242000" />
       <workItem from="1571527112263" duration="79244000" />
-      <workItem from="1571741958872" duration="20905000" />
+      <workItem from="1571741958872" duration="26723000" />
+      <workItem from="1571801389382" duration="295000" />
+      <workItem from="1571822258028" duration="62000" />
+      <workItem from="1571822448665" duration="79977000" />
+      <workItem from="1571955832155" duration="5851000" />
     </task>
     <servers />
   </component>

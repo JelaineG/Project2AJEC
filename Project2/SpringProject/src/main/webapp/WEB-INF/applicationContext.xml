@@ -7,7 +7,7 @@
 
     <import resource="spring-beans.xml"/>
     <import resource="orm-beans.xml"/>
-    <context:component-scan base-package="com.ex.revature.services"></context:component-scan>
+    <context:component-scan base-package="com.ex.revature"></context:component-scan>
 
 
 </beans>

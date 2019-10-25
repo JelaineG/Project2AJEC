@@ -1,6 +1,6 @@
 package com.ex.revature.DAO;
 
-import com.ex.revature.services.GetAllAlertsFromNPS;
+import com.ex.revature.entities.ParkAlerts;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -12,26 +12,32 @@ import java.util.List;
 @Repository
 @Transactional
 public class ParkAlertsDAO {
+    private ParkAlerts parkAlerts;
 
-   private SessionFactory sessionFactory;
+   private static SessionFactory sessionFactory;
+
+    public ParkAlertsDAO(){
+    }
     @Autowired
-    public ParkAlertsDAO(SessionFactory sessionFactory) {
+    public static SessionFactory getSessionFactory() {
+        return sessionFactory;
+    }
+   @Autowired
+    public void setSessionFactory(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;}
 
-       @Transactional
-    public List getAllAlert(String parkCode) {
 
-        GetAllAlertsFromNPS alerts = null;
-       Session session = sessionFactory.getCurrentSession();
+    public ParkAlerts getByParkCode(String parkCode) {
+        ParkAlerts parkAlerts = null;
+        Session session = sessionFactory.getCurrentSession();
 
         String hql = "From ParkAlerts where parkCode = :parkCode";
-
         Query q = session.createQuery(hql);
-       q.setParameter("parkCode", parkCode);
+        q.setParameter("parkCode", parkCode);
 
-       List alertList = q.list();
-        if(!alertList.isEmpty()) {
-        alerts = (GetAllAlertsFromNPS)alertList.get(0);     }
-        return alertList;
+        List alerts = q.list();
+        parkAlerts = (ParkAlerts) alerts.get(0);
+
+        return parkAlerts;
     }
 }

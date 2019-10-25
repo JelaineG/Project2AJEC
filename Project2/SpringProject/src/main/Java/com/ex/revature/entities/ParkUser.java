@@ -1,24 +1,29 @@
 package com.ex.revature.entities;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.stereotype.Component;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+
+import javax.persistence.*;
 
 @Component
 @Entity
+@Setter
+@Getter
+
 @Table(name = "ParkUser")
 public class ParkUser {
     @Id
-   private int id;
-   @Column(name = "Email")
+  private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    @Column(name = "Email")
   private String email;
 
   @Column(name = "Password")
-    private String password;
+   private String password;
 
-    @Column(name = "First_Name")
+  @Column(name = "First_Name")
    private String firstName;
 
    @Column(name = "Last_Name")
@@ -31,11 +36,10 @@ public class ParkUser {
    public ParkUser(){}
 
    public ParkUser(int id, String email, String password, String firstName, String lastName, String parksVisited) {
-
-      this.id = id;
+       this.id = id;
        this.email = email;
        this.password = password;
-      this.firstName = firstName;
+       this.firstName = firstName;
        this.firstName =lastName;
        this.parksVisited = parksVisited;
 
@@ -49,7 +53,7 @@ public class ParkUser {
        this.id = id;
   }
 
-   public String getEmail() {
+   public String getEmail(String s) {
        return email;
    }
 
@@ -87,4 +91,14 @@ public class ParkUser {
     public void setParksVisited(String parksVisited) {
         this.parksVisited = parksVisited;
     }
-}
+
+    @Override
+        public String toString() {
+        return "ParkUser{" +
+                "firstName=" + firstName +
+                ", lastName=" + lastName +
+                ", email=" + email +
+                ", parksVisited=" + parksVisited +
+                                '}';
+
+    }}
