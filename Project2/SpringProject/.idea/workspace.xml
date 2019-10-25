@@ -7,21 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44ed6917-fd9d-4beb-ba23-8f61baee638d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/GetNationalParksFromDBDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/VisitorCentersAddressesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetNationalParkFromDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/314d49cd69155008065cf09743baafe2fceb702a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/314d49cd69155008065cf09743baafe2fceb702a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/NationalParksDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/NationalParksDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/VisitorCentersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/VisitorCentersDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/entities/NationalParks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/entities/NationalParks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/entities/VisitorCentersPhysicalAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/entities/VisitorCentersAddresses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetAllNationalParksInfoFromNPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetAllNationalParksInfoFromNPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetAllVisitorCentersInfoFromNPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetAllVisitorCentersInfoFromNPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/orm-beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/orm-beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Data_JPA_1_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Data_JPA_1_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,19 +44,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-<<<<<<< HEAD
         <option value="HTML File" />
         <option value="Class" />
         <option value="Interface" />
-=======
-        <option value="Jsp File" />
-        <option value="Class" />
->>>>>>> master
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -102,7 +88,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,24 +102,10 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-<<<<<<< HEAD
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="com.ex.revature.DAO" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\webapp" />
-      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\webapp\WEB-INF" />
-      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature\services" />
-      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature\entities" />
-      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature" />
-    </key>
-=======
+
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ex.revature.DAO" />
       <recent name="com.ex.revature.entities" />
@@ -143,7 +115,6 @@
       <recent name="C:\Users\angel\repos\1908-aug09-java-aug\SpringProject\src\main\webapp" />
       <recent name="C:\Users\angel\repos\1908-aug09-java-aug\SpringProject\src\main\webapp\WEB-INF" />
     </key>
->>>>>>> master
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SpringProject" />
@@ -320,9 +291,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Tomcat Server.Tomcat" />
-        <item itemvalue="Tomcat Server.index.html" />
-        <item itemvalue="JavaScript Debug.localhost:8080" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -342,18 +310,6 @@
       <created>1571183359262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
-      <updated>1571410855512</updated>
-      <workItem from="1571410859420" duration="3501000" />
-      <workItem from="1571415123997" duration="3032000" />
-      <workItem from="1571423877442" duration="7242000" />
-      <workItem from="1571527112263" duration="79244000" />
-      <workItem from="1571741958872" duration="26723000" />
-      <workItem from="1571801389382" duration="295000" />
-      <workItem from="1571822258028" duration="62000" />
-      <workItem from="1571822448665" duration="79977000" />
-      <workItem from="1571955832155" duration="5851000" />
-=======
       <updated>1571183359262</updated>
       <workItem from="1571183363037" duration="5201000" />
       <workItem from="1571250006935" duration="20791000" />
@@ -364,7 +320,6 @@
       <workItem from="1571790045159" duration="599000" />
       <workItem from="1571796286784" duration="14000" />
       <workItem from="1571844358176" duration="15134000" />
->>>>>>> master
     </task>
     <task id="LOCAL-00001" summary="A Team Spring Submission as a group: Emerson, Jessica, Creshena and Angel">
       <created>1571187286199</created>
