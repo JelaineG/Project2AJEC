@@ -15,14 +15,14 @@ export class LoginComponent implements OnInit {
 
   myUser: any;
 
-  readonly APP_URL = 'http://localhost:8080/SpringProject';
+  readonly APP_URL = 'http://localhost:4200/login';
 
   ngOnInit() {
   }
 
   getParkUser() {
 
-    this.http.get(this.APP_URL + '/getParkUser').subscribe(data => { this.myUser = data; });
+    this.http.get(this.APP_URL).subscribe(data => { this.myUser = data; });
 
   }
 

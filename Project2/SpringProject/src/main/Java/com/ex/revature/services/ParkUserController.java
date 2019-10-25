@@ -1,5 +1,7 @@
 package com.ex.revature.services;
 
+// @CrossOrigin(origins="http://localhost:4200")
+
 import com.ex.revature.DAO.ParkUserDAO;
 import com.ex.revature.entities.ParkUser;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Controller
+@CrossOrigin(origins="http://localhost:4200")
 public class ParkUserController {
     String email;
     String lastName;
