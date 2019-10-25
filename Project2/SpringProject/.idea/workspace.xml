@@ -53,8 +53,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+<<<<<<< HEAD
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+=======
         <option value="Jsp File" />
         <option value="Class" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -71,7 +77,7 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_INFO" value="false" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
@@ -113,6 +119,21 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.ex.revature.DAO" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\webapp" />
+      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\webapp\WEB-INF" />
+      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature\services" />
+      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature\entities" />
+      <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature" />
+    </key>
+=======
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ex.revature.DAO" />
       <recent name="com.ex.revature.entities" />
@@ -122,6 +143,7 @@
       <recent name="C:\Users\angel\repos\1908-aug09-java-aug\SpringProject\src\main\webapp" />
       <recent name="C:\Users\angel\repos\1908-aug09-java-aug\SpringProject\src\main\webapp\WEB-INF" />
     </key>
+>>>>>>> master
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,6 +327,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="SpringGeneralSettings">
     <option name="allowAutoConfigurationMode" value="true" />
   </component>
@@ -317,6 +342,18 @@
       <created>1571183359262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1571410855512</updated>
+      <workItem from="1571410859420" duration="3501000" />
+      <workItem from="1571415123997" duration="3032000" />
+      <workItem from="1571423877442" duration="7242000" />
+      <workItem from="1571527112263" duration="79244000" />
+      <workItem from="1571741958872" duration="26723000" />
+      <workItem from="1571801389382" duration="295000" />
+      <workItem from="1571822258028" duration="62000" />
+      <workItem from="1571822448665" duration="79977000" />
+      <workItem from="1571955832155" duration="5851000" />
+=======
       <updated>1571183359262</updated>
       <workItem from="1571183363037" duration="5201000" />
       <workItem from="1571250006935" duration="20791000" />
@@ -327,6 +364,7 @@
       <workItem from="1571790045159" duration="599000" />
       <workItem from="1571796286784" duration="14000" />
       <workItem from="1571844358176" duration="15134000" />
+>>>>>>> master
     </task>
     <task id="LOCAL-00001" summary="A Team Spring Submission as a group: Emerson, Jessica, Creshena and Angel">
       <created>1571187286199</created>
