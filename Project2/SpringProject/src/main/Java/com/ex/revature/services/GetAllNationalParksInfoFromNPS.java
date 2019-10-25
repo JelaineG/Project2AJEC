@@ -36,7 +36,7 @@ public class GetAllNationalParksInfoFromNPS {
 
         System.out.println("Hello World!");
 
-        String url="https://developer.nps.gov/api/v1/parks?parkCode=&stateCode=&limit=200&fields=&sort=&api_key=3vvdfEW8e5IXlZ5GPH6ewkGA4TC8ioJABEwnbrEF";
+        String url="https://developer.nps.gov/api/v1/parks?limit=600&api_key=3vvdfEW8e5IXlZ5GPH6ewkGA4TC8ioJABEwnbrEF";
         StringBuffer response=null;
         HttpURLConnection connection=null;
 
