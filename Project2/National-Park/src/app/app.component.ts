@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-// import { HttpClient } from '@angular/common/http'; STEP 3
+// STEP 3
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -10,14 +11,17 @@ export class AppComponent {
   isLoggedIn = false;
   title = 'National-Park';
   
-  // readonly ROOT_URL = 'https://api.myjson.com/bins/1bwb3g' STEP 5
+  // // STEP 5
+  // readonly ROOT_URL = 'https://api.myjson.com/bins/1bwb3g'
 
-  // posts: any; STEP 6
+  // // STEP 6
+  // posts: any;
 
-  // constructor(private http: HttpClient) { } STEP 4
-  constructor() { } 
+  // // STEP 4
+  // constructor(private http: HttpClient) { }
 
-  // getPosts() { STEP 7
+  // // STEP 7
+  // getPosts() {
   //   this.posts = this.http.get(this.ROOT_URL)
   // }
 

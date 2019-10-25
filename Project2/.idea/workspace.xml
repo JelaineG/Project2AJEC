@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b23b8474-5ed1-4626-920b-5a1d8b0963c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/National-Park/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/National-Park/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/National-Park/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/National-Park/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/National-Park/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/National-Park/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/National-Park/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/National-Park/src/app/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/National-Park/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/National-Park/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringProject/src/main/Java/com/ex/revature/services/ParkUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringProject/src/main/Java/com/ex/revature/services/ParkUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringProject/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringProject/src/main/webapp/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="b23b8474-5ed1-4626-920b-5a1d8b0963c6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571961839109</updated>
       <workItem from="1571961842533" duration="813000" />
-      <workItem from="1571965886905" duration="2149000" />
+      <workItem from="1571965886905" duration="2926000" />
     </task>
     <servers />
   </component>
