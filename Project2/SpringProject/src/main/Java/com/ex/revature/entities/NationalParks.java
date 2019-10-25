@@ -107,7 +107,11 @@ public class NationalParks {
 
     @Override
     public String toString(){
-        return "The name of this park  with parkCode = " + parkCode + " is " + fullName;
+        return "The name for the park with parkCode = " + parkCode + " is " + fullName + "</br></br>" +
+                "The park designation is: " + designation + "</br></br>"+
+                "The park directions are: " + description + "</br></br>" +
+                "The park description is: " + directionsInfo + "</br></br>" +
+                "The park weather information is: " + weatherInfo + "</br></br>";
     }
 
 }//end of National Parks Class

@@ -22,7 +22,8 @@ public class GetNationalParksFromDBDAO {
 
     public GetNationalParksFromDBDAO(){
 
-    }
+    }//end of no arg constructor for GetNationaParksFromDBDAO
+
     @Autowired
     public static SessionFactory getSessionFactory() {
         return sessionFactory;
