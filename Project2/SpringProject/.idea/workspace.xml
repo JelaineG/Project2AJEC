@@ -6,12 +6,31 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1af8eb7-b28b-45a2-abe0-6ea567e703d4" name="Default Changelist" comment="" />
+    <list default="true" id="44ed6917-fd9d-4beb-ba23-8f61baee638d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/GetNationalParksFromDBDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/VisitorCentersAddressesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetNationalParkFromDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/314d49cd69155008065cf09743baafe2fceb702a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/314d49cd69155008065cf09743baafe2fceb702a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/NationalParksDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/NationalParksDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/VisitorCentersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/DAO/VisitorCentersDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/entities/NationalParks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/entities/NationalParks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/entities/VisitorCentersPhysicalAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/entities/VisitorCentersAddresses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetAllNationalParksInfoFromNPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetAllNationalParksInfoFromNPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetAllVisitorCentersInfoFromNPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/GetAllVisitorCentersInfoFromNPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/ex/revature/services/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/orm-beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/orm-beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -27,17 +46,32 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="SpringProject" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\inspections" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+<<<<<<< HEAD
         <option value="HTML File" />
         <option value="Class" />
         <option value="Interface" />
+=======
+        <option value="Jsp File" />
+        <option value="Class" />
+>>>>>>> master
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\angel\repos\1908-aug09-java-aug\SpringProject\.idea" />
+      </set>
     </option>
   </component>
   <component name="LogFilters">
@@ -47,18 +81,45 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1SNjGyBze0WXXJXswLu6SG8CDiW" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1SGIAEa3JgvZDvAMgCEMrs52uph" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.ex.revature.DAO" />
     </key>
@@ -72,6 +133,17 @@
       <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature\entities" />
       <recent name="C:\Revature Projects\1908-aug09-java-aug-master\SpringProject\src\main\Java\com\ex\revature" />
     </key>
+=======
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ex.revature.DAO" />
+      <recent name="com.ex.revature.entities" />
+      <recent name="com.ex.revature.services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angel\repos\1908-aug09-java-aug\SpringProject\src\main\webapp" />
+      <recent name="C:\Users\angel\repos\1908-aug09-java-aug\SpringProject\src\main\webapp\WEB-INF" />
+    </key>
+>>>>>>> master
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,16 +157,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
-    <configuration name="index.form" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/SpringProject_war_exploded/index.form">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SpringProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="localhost:8080" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <deployment>
+        <artifact name="SpringProject:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_SpringProject" />
+        <option name="BASE_DIRECTORY_NAME" value="index_html_SpringProject" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -102,7 +186,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="60354" />
+        <option name="DEBUG_PORT" value="59834" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -151,75 +235,13 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringProject:war exploded" />
+        </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_SpringProject" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="60354" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SpringProject:war">
           <settings>
@@ -228,7 +250,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_SpringProject" />
+        <option name="BASE_DIRECTORY_NAME" value="index_html_SpringProject_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -236,7 +258,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="60354" />
+        <option name="DEBUG_PORT" value="51888" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -290,89 +312,18 @@
         </option>
       </method>
     </configuration>
-    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="SpringProject:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_SpringProject" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="60354" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="false" />
-          <option name="SCRIPT" value="%IDEA_RUN:TOMCAT_HOME%/bin/catalina.bat" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="run" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="false" />
-          <option name="SCRIPT" value="%IDEA_RUN:TOMCAT_HOME%/bin/catalina.bat" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="stop" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="false" />
-          <option name="SCRIPT" value="%IDEA_RUN:TOMCAT_HOME%/bin/catalina.bat" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="run" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="false" />
-          <option name="SCRIPT" value="%IDEA_RUN:TOMCAT_HOME%/bin/catalina.bat" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="stop" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringProject:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.form" />
-      <item itemvalue="Tomcat Server.tomcat" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JavaScript Debug.localhost:8080" />
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Tomcat Server.index.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.Tomcat" />
         <item itemvalue="Tomcat Server.index.html" />
-        <item itemvalue="JavaScript Debug.index.form" />
+        <item itemvalue="JavaScript Debug.localhost:8080" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -387,10 +338,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f1af8eb7-b28b-45a2-abe0-6ea567e703d4" name="Default Changelist" comment="" />
-      <created>1571410855512</created>
+      <changelist id="44ed6917-fd9d-4beb-ba23-8f61baee638d" name="Default Changelist" comment="" />
+      <created>1571183359262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1571410855512</updated>
       <workItem from="1571410859420" duration="3501000" />
       <workItem from="1571415123997" duration="3032000" />
@@ -401,13 +353,95 @@
       <workItem from="1571822258028" duration="62000" />
       <workItem from="1571822448665" duration="79977000" />
       <workItem from="1571955832155" duration="5851000" />
+=======
+      <updated>1571183359262</updated>
+      <workItem from="1571183363037" duration="5201000" />
+      <workItem from="1571250006935" duration="20791000" />
+      <workItem from="1571341162501" duration="13049000" />
+      <workItem from="1571404660759" duration="2947000" />
+      <workItem from="1571407825334" duration="74832000" />
+      <workItem from="1571682365781" duration="30144000" />
+      <workItem from="1571790045159" duration="599000" />
+      <workItem from="1571796286784" duration="14000" />
+      <workItem from="1571844358176" duration="15134000" />
+>>>>>>> master
     </task>
+    <task id="LOCAL-00001" summary="A Team Spring Submission as a group: Emerson, Jessica, Creshena and Angel">
+      <created>1571187286199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571187286199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Javax.enterprise.cdi.api and javax.json.api - needed to read JSON from National Park Service">
+      <created>1571189399588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571189399588</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Got initMethod to run">
+      <created>1571357128365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571357128365</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Got second method to run">
+      <created>1571409459242</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571409459242</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Still getting null pointer">
+      <created>1571581464587</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571581464587</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Before adding Visitor Center Addresses">
+      <created>1571706141982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571706141982</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Before adding Visitor Center Addresses">
+      <created>1571706592237</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571706592237</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SpringProject$tomcat.ic" NAME="tomcat Coverage Results" MODIFIED="1571783037479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="A Team Spring Submission as a group: Emerson, Jessica, Creshena and Angel" />
+    <MESSAGE value="Added Javax.enterprise.cdi.api and javax.json.api - needed to read JSON from National Park Service" />
+    <MESSAGE value="Got initMethod to run" />
+    <MESSAGE value="Got second method to run" />
+    <MESSAGE value="Still getting null pointer" />
+    <MESSAGE value="Before adding Visitor Center Addresses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before adding Visitor Center Addresses" />
   </component>
 </project>
