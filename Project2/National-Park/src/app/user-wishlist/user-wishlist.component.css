@@ -4,7 +4,7 @@
     left: 10%;
     margin-top: -50px;
     margin-left: -50px;
-    width: 90%;
+    width: 120%;
     display: flex;
 }
 
@@ -25,3 +25,10 @@ section {
     margin-top: 20%;
 }
 
+label {
+    margin-left: -10%;
+}
+
+article {
+    margin-left: 2%
+}

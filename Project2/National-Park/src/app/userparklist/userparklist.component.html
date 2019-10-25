@@ -15,7 +15,8 @@
 
 <body>
     <div class="container">
-    	<div class="row">
+        <button (click)="getPosts()">Get Parks</button>
+    	<!-- <div class="row">
                 <div class="table-responsive">
                 <table class="table">
                     <thead>
@@ -92,8 +93,45 @@
                     </tbody>
                 </table>
             </div>
+        </div>-->
+
+         <div class="row">
+                <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Park Name</th>
+                            <th class="text-center">State(s)</th>
+                            <th class="text-left">View</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let post of posts | async">
+                            <td class="text-center"> {{ post.fullName }} </td>
+                            <td class="text-center"> {{ post.states }} </td>
+                              <button type="button" rel="tooltip" class="btn btn-info btn-round btn-just-icon btn-sm" data-original-title="">
+                                <i class="material-icons">check_circle</i>
+                            </button>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-    </div> 
+
+        <!-- <div class="row">
+                <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr *ngFor="let post of posts | async">
+                                {{ post.fullName }}
+                        </tr>
+
+                    </thead>
+                </table>
+                </div>
+            </div> -->
+
+    </div>  
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>

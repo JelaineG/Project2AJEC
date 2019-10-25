@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-parklist',
@@ -8,10 +9,19 @@ import { ApiService } from '../api.service';
   providers: [ApiService]
 })
 export class ParklistComponent implements OnInit {
-  private API_KEY = '3vvdfEW8e5IXlZ5GPH6ewkGA4TC8ioJABEwnbrEF';
 
-  constructor(private apiService: ApiService) { }
+  constructor(private http: HttpClient) { }
 
-  ngOnInit() {}
+  ngOnInit() { }
   
+  // STEP 5
+  readonly ROOT_URL = 'https://api.myjson.com/bins/q2rrw'
+
+  // STEP 6
+  posts: any;
+
+  // STEP 7
+  getPosts() {
+    this.posts = this.http.get(this.ROOT_URL)
+  }
 }
