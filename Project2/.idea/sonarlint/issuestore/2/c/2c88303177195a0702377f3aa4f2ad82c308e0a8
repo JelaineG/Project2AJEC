@@ -1,0 +1,23 @@
+
+isquid:S00117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¸Ÿ¢
+Usquid:S3752'">Add a "method" parameter to this "@RequestMapping" annotation.(²éî•
+vsquid:S1149-"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êú•“
+\squid:S18543"@Remove this useless assignment to local variable "responseCode".(ÇÇ”ıÿÿÿÿ
+O
+squid:S106*"9Replace this use of System.out or System.err by a logger.(€á õ
+U
+squid:S106’"9Replace this use of System.out or System.err by a logger.(œª¡ûÿÿÿÿ
+U
+squid:S106”"9Replace this use of System.out or System.err by a logger.(™ê©Ûøÿÿÿÿ
+U
+squid:S106–"9Replace this use of System.out or System.err by a logger.(ÄßÈÙşÿÿÿÿ
+P
+squid:S106˜"9Replace this use of System.out or System.err by a logger.(á‘‹€
+U
+squid:S106š"9Replace this use of System.out or System.err by a logger.(–è¢ğıÿÿÿÿ
+U
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(é§¤ÿşÿÿÿÿ
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì¨‘
+Msquid:S14813"1Remove this unused "responseCode" local variable.(ÇÇ”ıÿÿÿÿ
+Nsquid:S1481L"2Remove this unused "directionsUrl" local variable.(ªíÎ•ıÿÿÿÿ

@@ -15,13 +15,13 @@ public class GetNationalParkFromDB {
     String parkCode;
     NationalParks nationalParks;
 
-
+    @Autowired
     private GetNationalParksFromDBDAO getNationalParksFromDBDAO;
 
-    @Autowired
-    public void setGetNationalParkFromDB(GetNationalParksFromDBDAO getNationalParksFromDBDAO) {
-        this.getNationalParksFromDBDAO = getNationalParksFromDBDAO;
-    }
+//    @Autowired
+//    public void setGetNationalParkFromDB(GetNationalParksFromDBDAO getNationalParksFromDBDAO) {
+//        this.getNationalParksFromDBDAO = getNationalParksFromDBDAO;
+//    }
 
 
 

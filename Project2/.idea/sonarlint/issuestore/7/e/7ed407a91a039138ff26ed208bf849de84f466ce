@@ -1,0 +1,26 @@
+
+Msquid:S1481."1Remove this unused "responseCode" local variable.(ÇÇ”ýÿÿÿÿ
+O
+squid:S106X"9Replace this use of System.out or System.err by a logger.(ó«Öì
+_squid:UselessImportCheck";Remove this unused import 'java.net.MalformedURLException'.(ªËÞˆ
+\squid:S1854."@Remove this useless assignment to local variable "responseCode".(ÇÇ”ýÿÿÿÿ
+O
+squid:S106T"9Replace this use of System.out or System.err by a logger.(›´Ÿ
+O
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(†ŽÎß
+T
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Ž½Ž¦ÿÿÿÿÿ
+T
+squid:S106^"9Replace this use of System.out or System.err by a logger.(ØöÞØûÿÿÿÿ
+Nsquid:S1481B"2Remove this unused "directionsUrl" local variable.(ªíÎ•ýÿÿÿÿ
+O
+squid:S106V"9Replace this use of System.out or System.err by a logger.(õÐ©
+Usquid:S3752"">Add a "method" parameter to this "@RequestMapping" annotation.(Äƒ ü
+T
+squid:S106`"9Replace this use of System.out or System.err by a logger.(úú¬ãüÿÿÿÿ
+vsquid:S1149("_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(êú•“
+bsquid:UselessImportCheck"9Remove this unused import 'org.hibernate.SessionFactory'.(ñ¦«¬þÿÿÿÿ
+O
+squid:S106\"9Replace this use of System.out or System.err by a logger.(óåŸž
+O
+squid:S106_"9Replace this use of System.out or System.err by a logger.(þšûë

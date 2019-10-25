@@ -44,8 +44,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
+        <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,7 +63,7 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_INFO" value="false" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
@@ -104,6 +105,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ex.revature.DAO" />
       <recent name="com.ex.revature.entities" />
@@ -293,6 +295,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="SpringGeneralSettings">
     <option name="allowAutoConfigurationMode" value="true" />
   </component>
@@ -315,7 +320,6 @@
       <workItem from="1571790045159" duration="599000" />
       <workItem from="1571796286784" duration="14000" />
       <workItem from="1571844358176" duration="15134000" />
-      <workItem from="1571881865964" duration="2405000" />
     </task>
     <task id="LOCAL-00001" summary="A Team Spring Submission as a group: Emerson, Jessica, Creshena and Angel">
       <created>1571187286199</created>

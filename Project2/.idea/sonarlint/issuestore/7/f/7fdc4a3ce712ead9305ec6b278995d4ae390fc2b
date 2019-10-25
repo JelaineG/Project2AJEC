@@ -1,0 +1,11 @@
+
+Msquid:S1068"1Remove this unused "nationalParks" private field.( Äçáüÿÿÿÿ
+Lsquid:S2696""6Make the enclosing method "static" or remove this set.(¡Î³
+isquid:S00117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è‚¦¢
+T
+squid:S1066"9Replace this use of System.out or System.err by a logger.(Ï–¾…üÿÿÿÿ
+˜squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òÔÚ«
+hsquid:HiddenFieldCheck&"ARename "nationalParks" which hides the field declared at line 16.(ìí¯‚ýÿÿÿÿ
+Ksquid:S2209""5Change this instance-reference to a static reference.(¡Î³
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§¦ßÅøÿÿÿÿ
+Csquid:S1068",Remove this unused "parkCode" private field.(Ò’ŒÊ
